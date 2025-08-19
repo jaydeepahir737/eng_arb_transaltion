@@ -1,1 +1,12 @@
--e "__pycache__/\n*.pyc\n*.pyo\n*.pyd\n.env\n.venv\n.envrc"  
+# Python virtual environment
+venv/
+
+# Hugging Face model cache
+hf_cache/
+
+# Python bytecode files
+__pycache__/
+*.pyc
+
+# Translated output files
+translated_files/
