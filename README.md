@@ -49,12 +49,14 @@ source venv/bin/activate
 
 # Install the remaining dependencies
 pip install -r requirements.txt
+
 🎯 Running the API
 Once installation is complete, start the Flask server from the project's root directory:
 
 Bash
 
 python main.py
+
 The API will be live and listening for requests at http://127.0.0.1:5000.
 
 📝 API Endpoints
