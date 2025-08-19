@@ -1,47 +1,43 @@
-English-Arabic Offline Translator API
+# English-Arabic Offline Translator API
+
 A professional-grade, fully offline REST API for high-accuracy, bidirectional English-Arabic translation. Built with state-of-the-art open-source models, this service handles long documents and text streams while maintaining contextual accuracy.
 
-🚀 Key Features :
-REST API Endpoints: Simple and powerful endpoints for text and PDF translation.
+## 🚀 Key Features
 
-Asynchronous PDF Processing: Submitting large PDFs returns a task ID immediately, preventing client timeouts.
+-   **REST API Endpoints**: Simple and powerful endpoints for text and PDF translation.
+-   **Asynchronous PDF Processing**: Submitting large PDFs returns a task ID immediately, preventing client timeouts.
+-   **Bidirectional Translation**: Seamless English ↔ Arabic translation.
+-   **Handles Large Documents**: Translates documents with thousands of words without truncation.
+-   **Offline Operation**: Works completely offline after the initial model download.
+-   **Automatic Language Detection**: Detects the input language automatically.
 
-Bidirectional Translation: Seamless English ↔ Arabic translation.
+---
+## 📋 System Requirements
 
-Handles Large Documents: Translates documents with thousands of words without truncation.
+### Hardware
+-   **Processor**: Intel i5 or equivalent (Intel i5 10th gen or newer recommended)
+-   **Memory**: 8GB RAM minimum (16GB recommended for large documents)
+-   **Storage**: 5GB free space for models and dependencies
 
-Offline Operation: Works completely offline after the initial model download.
+### Software
+-   **Operating System**: Windows 10/11, macOS 10.14+, or Linux (Ubuntu 18.04+)
+-   **Python**: Version 3.8 or higher
+-   **Internet**: Required only for the initial model download (~2-3GB).
 
-Automatic Language Detection: Detects the input language automatically.
+---
+## 🛠 Installation Guide
 
-📋 System Requirements
-Hardware
-Processor: Intel i5 or equivalent (Intel i5 10th gen or newer recommended)
-
-Memory: 8GB RAM minimum (16GB recommended for large documents)
-
-Storage: 5GB free space for models and dependencies
-
-Software
-Operating System: Windows 10/11, macOS 10.14+, or Linux (Ubuntu 18.04+)
-
-Python: Version 3.8 or higher
-
-Internet: Required only for the initial model download (~2-3GB).
-
-🛠 Installation Guide
 This project requires a specific version of PyTorch that matches your hardware. Please follow these steps carefully.
 
-Step 1: Install PyTorch
-First, install PyTorch separately. Go to the official PyTorch website, select the correct options for your system (e.g., Windows, Pip, CPU or CUDA), and run the command they provide. This ensures maximum compatibility and performance.
+### Step 1: Install PyTorch
+First, install PyTorch separately. Go to the **[official PyTorch website](https://pytorch.org/get-started/locally/)**, select the correct options for your system (e.g., Windows, Pip, CPU or CUDA), and run the command they provide. This ensures maximum compatibility and performance.
 
-Step 2: Clone and Install Project Dependencies
+### Step 2: Clone and Install Project Dependencies
 Once PyTorch is installed, you can set up the project and install the rest of the required packages.
 
-Bash
-
+```bash
 # Clone the repository
-git clone https://github.com/jaydeepahir737/eng_arb_transaltion.git
+git clone [https://github.com/jaydeepahir737/eng_arb_transaltion.git](https://github.com/jaydeepahir737/eng_arb_transaltion.git)
 cd eng_arb_transaltion
 
 # Create and activate a virtual environment
@@ -53,8 +49,6 @@ source venv/bin/activate
 
 # Install the remaining dependencies
 pip install -r requirements.txt
-Note: This will install key libraries like Flask, transformers, and PyPDF2.
-
 🎯 Running the API
 Once installation is complete, start the Flask server from the project's root directory:
 
