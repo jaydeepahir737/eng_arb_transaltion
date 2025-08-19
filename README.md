@@ -50,7 +50,7 @@ source venv/bin/activate
 # Install the remaining dependencies
 pip install -r requirements.txt
 
-🎯 Running the API
+###🎯 Running the API
 Once installation is complete, start the Flask server from the project's root directory:
 
 Bash
