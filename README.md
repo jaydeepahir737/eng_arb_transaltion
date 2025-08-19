@@ -37,7 +37,7 @@ Once PyTorch is installed, you can set up the project and install the rest of th
 
 ```bash
 # Clone the repository
-git clone [https://github.com/jaydeepahir737/eng_arb_transaltion.git](https://github.com/jaydeepahir737/eng_arb_transaltion.git)
+git clone https://github.com/jaydeepahir737/eng_arb_transaltion.git
 cd eng_arb_transaltion
 
 # Create and activate a virtual environment
